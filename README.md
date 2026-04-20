@@ -34,7 +34,7 @@ A high-performance, minimalist portfolio built with React, Vite, and Tailwind CS
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shaunaksikdar/portfolio.git
+   git clone https://github.com/Shaan75/Shaunak
    ```
 
 2. Install dependencies:
@@ -53,13 +53,6 @@ A high-performance, minimalist portfolio built with React, Vite, and Tailwind CS
 - `src/components/ResumeSection.tsx`: Handle PDF preview and downloads.
 - `public/`: Static assets (Place your `resume.pdf` here).
 - `src/App.tsx`: The heart of the application with main layout and navigation logic.
-
-## 📝 Customization
-
-To add your own resume:
-1. Place your PDF in the `public/` folder.
-2. Ensure it is named `resume.pdf`.
-3. The "Live Glimpse" preview in `ResumeSection.tsx` will automatically pick it up.
 
 ## 📄 License
 
