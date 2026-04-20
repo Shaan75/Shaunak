@@ -60,16 +60,6 @@ export default function App() {
     };
   }, []);
 
-  useEffect(() => {
-    if (isMenuOpen) {
-      lenisRef.current?.stop();
-      document.body.style.overflow = 'hidden';
-    } else {
-      lenisRef.current?.start();
-      document.body.style.overflow = 'auto';
-    }
-  }, [isMenuOpen]);
-
   useMotionValueEvent(scrollY, "change", (latest) => {
     setIsScrolled(latest > 50);
     setShowBackToTop(latest > 400);
