@@ -85,7 +85,7 @@ export const ResumeSection = () => {
                   link.download = 'Shaunak_Sikdar_Resume.pdf';
                   link.click();
                 }}
-                className="flex items-center gap-3 glass border border-white/10 hover:border-white text-white hover:bg-white hover:text-black px-10 py-5 rounded-full font-black text-xs uppercase tracking-widest transition-all duration-300 transform hover:scale-105"
+                className="flex items-center gap-3 glass border border-white/10 hover:border-white/50 text-white hover:bg-white/10 px-10 py-5 rounded-full font-black text-xs uppercase tracking-widest transition-all duration-300 transform hover:scale-105"
               >
                 <Download className="w-4 h-4" />
                 Download PDF
