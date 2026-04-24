@@ -307,8 +307,8 @@ export default function App() {
               description="AI Resume Intelligence platform powered by Groq. 'Know Your Signal. Land Your Role.' Analyzes resumes for skills, gaps, and impact to help candidates land their dream roles."
               tags={["Groq", "React", "Tailwind", "Framer Motion"]}
               image="/projects/skillsignal.jpeg"
-              link="https://static.vecteezy.com/system/resources/thumbnails/069/574/444/small_2x/coming-soon-animated-banner-with-clock-and-green-screen-video.jpg"
-              githubLink="https://static.vecteezy.com/system/resources/thumbnails/079/115/676/small_2x/coming-soon-announcement-neon-circle-loop-animation-background-video.jpg"
+              link="https://skillsignal-one.vercel.app/"
+              githubLink="https://github.com/Shaan75/skillsignal"
             />
             <ProjectCard 
               title="Air Quality Monitor" 
