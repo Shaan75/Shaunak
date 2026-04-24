@@ -112,7 +112,7 @@ const ResumePDFPreview: React.FC<ResumePDFPreviewProps> = ({ url }) => {
 };
 
 export const ResumeSection: React.FC = () => {
-  const resumeUrl = "/SHAUNAK CV1.pdf";
+  const resumeUrl = "/SHAUNAK_SIKDAR_CV.pdf";
 
   return (
     <div className="w-full">
